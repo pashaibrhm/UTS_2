@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pesan"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Pesan" />
+        <item
+            android:id="@+id/booking"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Booking" />
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About" />
+        <item
+            android:id="@+id/logout"
+            android:icon="?android:attr/actionModeCloseDrawable"
+            android:title="Logout" />
+    </group>
+</menu>
